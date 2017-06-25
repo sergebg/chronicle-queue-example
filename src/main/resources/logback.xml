@@ -6,6 +6,8 @@
             <pattern>%d{HH:mm:ss.SSS} %-5le [%t] [%lo{10}] %m%n</pattern>
         </encoder>
     </appender>
+    
+    <logger name="net.openhft.chronicle.queue.impl.single.SingleChronicleQueueExcerpts$StoreTailer" level="INFO"/>
 
     <root level="DEBUG">
         <appender-ref ref="console" />
